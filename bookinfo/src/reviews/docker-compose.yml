@@ -1,7 +1,7 @@
 services:
   reviews:
     build: .
-    image: ghcr.io/tian-np/reviews:dev
+    image: ghcr.io/tian-np/bookinfo-reviews:dev
     ports:
       - "8082:9080"
     environment:
