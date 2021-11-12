@@ -1,7 +1,7 @@
-services:
+gitservices:
   productpage:
     build: .
-    image: ghcr.io/tian-np/productpage:dev
+    image: ghcr.io/tian-np/bookinfo-productpage:dev
     ports:
       - "8083:9080"
     environment:
