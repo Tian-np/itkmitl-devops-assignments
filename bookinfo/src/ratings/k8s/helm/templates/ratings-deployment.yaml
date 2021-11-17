@@ -44,3 +44,4 @@ spec:
         {{- end }}
       imagePullSecrets:
       - name: {{ .Values.ratings.imagePullSecrets }}
+      
